@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.5.0/jquery.mobile-1.5.0.min.css" />
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.5.0/jquery.mobile-1.5.0.min.js"></script>
+  </head>
+  <body>
+    <li><a href="index.html">Home </a></li>
+<div data-role="page" id="shopping-cart">
+    <div data-role="header">
+      <h1>Cart</h1>
+    </div>
+
+    <div data-role="content">
+       <!--<ul data-role="listview" data-inset="true">
+        <li><a href="#product-1">Medicine</a></li>
+        <li><a href="#product-3">Vitamin</a></li>
+      </ul>-->
+      <p>Total: $00</p>
+      <a href="#order-progress" data-role="button">Place Order</a>
+    </div>
+
+    <div data-role="footer">
+      <h2>Footer</h2>
+    </div>
+  </div>
+
+  <div data-role="page" id="checkout">
+    <div data-role="header">
+      <h1>Checkout</h1>
+    </div>
+
+    <div data-role="content">
+      <form>
+        <div data-role="fieldcontain">
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" value="">
+        </div>
+        <div data-role="fieldcontain">
+          <label for="address">Address:</label>
+          <textarea name="address" id="address"></textarea>
+        </div>
+        <div data-role="fieldcontain">
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" value="">
+        </div>
+        <a href="#order-confirmation" data-role="button">Submit</a>
+      </form>
+    </div>
+
+    <div data-role="footer">
+      <h2>Footer</h2>
+    </div>
+  </div>
+</body>
+</html>
